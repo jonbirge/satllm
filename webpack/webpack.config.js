@@ -9,6 +9,7 @@ const WorkboxPlugin = require("workbox-webpack-plugin");
 
 const basePath = `${__dirname}/..`;
 const cesiumSource = "node_modules/cesium/Source";
+const cesiumWorkers = '../Build/Cesium/Workers';
 
 module.exports = {
   context: basePath,
